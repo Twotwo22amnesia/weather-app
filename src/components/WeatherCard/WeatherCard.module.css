@@ -1,0 +1,53 @@
+.card {
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.city {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.description {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+}
+
+.description::first-letter {
+  text-transform: uppercase;
+}
+
+.current {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.temperature {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.details dt {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.details dd {
+  margin: 0.15rem 0 0;
+  font-weight: 600;
+}
